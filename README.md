@@ -1,0 +1,39 @@
+# Django Course from YT
+
+This repo consists of a project described in the Django Course available on Youtube.
+
+## Credits
+
+Course's author: Dennis Ivy
+
+Course link: [Python Django 7 Hour Course](https://www.youtube.com/watch?v=PtQiiknWUcI&t=12805s)
+
+### About the project:
+
+The project is a mini social media app where its users are able to create rooms to discuss various topics with each other.
+
+### How to run:
+
+Optionally you can create your virtual environment:
+
+```
+python -m venv myEnvName
+```
+
+Then install requirements/dependencies for the project:
+
+```
+pip install -r requirements.txt
+```
+
+prepare the database (optionally you can delete the one provided in the repo and create your own sqlite3 database with this command, but then you have to create your own superuser for the database):
+
+```
+python manage.py migrate
+```
+
+then you can safely run the server:
+
+```
+python manage.py runserver
+```
